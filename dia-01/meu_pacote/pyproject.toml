@@ -1,0 +1,17 @@
+[project]
+name = "meu-pacote"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raphaelfcs", email = "raphaelfcs@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+meu-pacote = "meu_pacote:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
